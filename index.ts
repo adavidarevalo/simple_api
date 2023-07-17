@@ -1,7 +1,7 @@
 import cors from "cors";
 import dotenv from "dotenv";
 import express from "express";
-import { ProductsRouter } from "./routes/products.route";
+import { ProductsRouter } from "./routes/products.routes";
 import { sequelize } from "./config/database";
 
 dotenv.config();

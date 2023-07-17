@@ -9,7 +9,7 @@
     "esModuleInterop": true,
     "types": ["node"]
   },
-  "strictMode": true,
+  "strict": true,
   "ts-node": {
     "esm": true,
     "experimentalSpecifierResolution": "node"
