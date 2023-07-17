@@ -12,11 +12,9 @@ services:
       - "3306:3306"
     restart: always
     volumes:
-      - mysql_data:/var/lib/mysql
+      - mysqlDb:/var/lib/mysqlDb
     environment:
       MYSQL_ROOT_PASSWORD: root_password
       MYSQL_DATABASE: productsgql
-      MYSQL_USER: root
-      MYSQL_PASSWORD: password
 volumes:
-  mysql_data:
+  mysqlDb:
